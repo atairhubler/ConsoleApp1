@@ -1,22 +1,21 @@
 ﻿
 
+using ConsoleApp6;
 
 
-// int FuncaoLamb(int a, int b) => a + b;
-
-var numeros = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-
-var pares = numeros.FindAll( x => x % 2 == 0 );
-
-foreach ( int numero in pares)
-{
-    Console.WriteLine(numero);
-}
+Conta atairConta = new Conta();
 
 
+atairConta.Titular2.Nome = "Atair Hubler Junior";
+atairConta.Titular2.CPF = 10057624496;
+
+atairConta.NumeroDaConta = 546852;
+atairConta.Agencia = 92;
+atairConta.Saldo = 4000;
+atairConta.Limite = 6000;
 
 
-
+Console.WriteLine(atairConta.DetalhesDaConta());
 
 
 
