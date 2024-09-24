@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp9
+{
+    internal class Mesa
+    {
+        public string Nome {  get; set; }
+    }
+}
+
+
+
+/*
+ Classe Mesa
+    Nome 
+ 
+ */
+
+

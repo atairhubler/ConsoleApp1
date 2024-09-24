@@ -15,7 +15,7 @@ atairConta.Saldo = 4000;
 atairConta.Limite = 6000;
 
 
-Console.WriteLine(atairConta.DetalhesDaConta());
+Console.WriteLine(atairConta.DetalhesDaConta);
 
 
 

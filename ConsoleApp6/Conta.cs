@@ -14,7 +14,7 @@ namespace ConsoleApp6
         public double Saldo { get; set; }
         public double Limite { get; set; }
 
-        public string DetalhesDaConta ()=> $"Nome {Titular2.Nome}\nCPF {Titular2.CPF}\nAgencia {Agencia}\nConta {NumeroDaConta}\nSaldo {Saldo}\nLimite {Limite}";
+        public string DetalhesDaConta => $"Nome {Titular2.Nome}\nCPF {Titular2.CPF}\nAgencia {Agencia}\nConta {NumeroDaConta}\nSaldo {Saldo}\nLimite {Limite}";
 
     }
 }
