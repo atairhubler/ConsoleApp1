@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp8
+{
+    internal class Aluno
+    {
+        public string Nome {  get; set; }
+        public int Idade { get; set; }
+        public double Notas {  get; set; }
+    }
+}
+
+
+
+/*
+Classe Aluno
+    Nome
+    Idade
+    Notas
+*/
